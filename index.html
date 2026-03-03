@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PedCalc — เครื่องมือคำนวณขนาดยาสำหรับเด็ก สำหรับบุคลากรทางการแพทย์" />
+    
+    <!-- Prevent zoom on input focus (iOS) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    
+    <title>PedCalc — คำนวณขนาดยาสำหรับเด็ก</title>
+    
+    <!-- Tailwind CSS CDN (development) -->
+    <!-- Production: ใช้ tailwind CLI build แทน CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Trunk จะ inject WASM script ที่นี่ -->
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Leptos app mount point -->
+    
+    <!-- Disclaimer banner — แสดงทุกครั้ง -->
+    <div id="disclaimer" class="bg-amber-50 border-b border-amber-300 px-4 py-2 text-center text-sm text-amber-800">
+        ⚠️ ใช้เพื่อประกอบการตัดสินใจทางคลินิกเท่านั้น — ต้องผ่านการตรวจสอบจากแพทย์หรือเภสัชกรก่อนให้ยาทุกครั้ง
+    </div>
+</body>
+</html>
