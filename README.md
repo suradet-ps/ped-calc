@@ -64,6 +64,17 @@ trunk build --release
 
 The output will be placed in the `dist/` folder.
 
+## Deployment
+
+PedCalc can be easily deployed to [Vercel](https://vercel.com) as a Static Site. The repository includes the necessary configuration files.
+
+1. Create a new project on Vercel and import your repository.
+2. In the **Build and Output Settings**:
+   - **Framework Preset**: `Other`
+   - **Build Command**: `bash build.sh`
+   - **Output Directory**: `dist`
+3. Click **Deploy**. Vercel will run the included `build.sh` script to install Rust, WebAssembly targets, and Trunk, and then build the application.
+
 ## Usage
 
 1. Start the application locally and access the calculator view.
