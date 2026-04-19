@@ -10,7 +10,7 @@ path = "src/main.rs"
 [dependencies]
 # Leptos framework (CSR mode — ไม่มี SSR)
 leptos = { version = "0.7", features = ["csr"] }
-leptos_meta = "0.7"
+leptos_meta = "0.8"
 leptos_router = "0.7"
 
 # WASM
