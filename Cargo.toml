@@ -37,7 +37,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
 # Error handling
-thiserror = "1"
+thiserror = "2"
 
 # Decimal arithmetic (สำคัญ: ห้ามใช้ f64 สำหรับ clinical calculations)
 rust_decimal = { version = "1", features = ["serde", "serde-float"] }
