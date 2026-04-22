@@ -56,7 +56,7 @@ To contribute to PedCalc, you will need the following tools installed:
 ### Setup Steps
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/pharmacist-sabot/ped-calc.git`
+2. Clone your fork: `git clone https://github.com/suradet-ps/ped-calc.git`
 3. Add the WebAssembly target: `rustup target add wasm32-unknown-unknown`
 4. Install Trunk: `cargo install trunk`
 5. Start the development server: `trunk serve`
