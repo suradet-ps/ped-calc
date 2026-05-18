@@ -642,10 +642,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0de51e6874e94e7bf76d726fc5d13ba782deca734ff60d5bb2fb2607c7406555"
 dependencies = [
  "cfg-if",
+ "js-sys",
  "libc",
  "r-efi",
  "wasip2",
  "wasip3",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -973,6 +975,7 @@ dependencies = [
  "cfg-if",
  "either_of",
  "futures",
+ "getrandom 0.4.2",
  "hydration_context 0.3.0",
  "leptos_config 0.8.10",
  "leptos_dom 0.8.8",
@@ -1409,7 +1412,7 @@ version = "0.1.0"
 dependencies = [
  "console_error_panic_hook",
  "js-sys",
- "leptos 0.7.8",
+ "leptos 0.8.19",
  "leptos_meta",
  "leptos_router",
  "rust_decimal",
